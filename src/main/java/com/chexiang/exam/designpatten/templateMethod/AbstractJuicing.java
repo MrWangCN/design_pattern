@@ -1,7 +1,5 @@
 package com.chexiang.exam.designpatten.templateMethod;
 
-import com.ibm.framework.exception.BaseException;
-
 public abstract class AbstractJuicing {
 
     /**
@@ -48,7 +46,7 @@ public abstract class AbstractJuicing {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
-            throw new BaseException("sleep method did not work");
+            throw new IllegalArgumentException("sleep method did not work");
         }
     }
 
