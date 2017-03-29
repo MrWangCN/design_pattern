@@ -1,0 +1,10 @@
+/target/
+/designpattern/LOG_HOME_IS_UNDEFINED
+/designpattern/test-output
+/designpattern/.project
+/designpattern/.classpath
+/designpattern/.settings
+/designpattern/*.classpath
+/designpattern/*.project
+/designpattern/bin
+/designpattern/target
